@@ -24,7 +24,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		78AD0A6F2D4EED86004CE9AF /* ThreadsClone-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ThreadsClone-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78AD0A6F2D4EED86004CE9AF /* Threads.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Threads.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78AD0A7F2D4EED8A004CE9AF /* ThreadsClone-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ThreadsClone-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78AD0A892D4EED8A004CE9AF /* ThreadsClone-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ThreadsClone-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -85,7 +85,7 @@
 		78AD0A702D4EED86004CE9AF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				78AD0A6F2D4EED86004CE9AF /* ThreadsClone-iOS.app */,
+				78AD0A6F2D4EED86004CE9AF /* Threads.app */,
 				78AD0A7F2D4EED8A004CE9AF /* ThreadsClone-iOSTests.xctest */,
 				78AD0A892D4EED8A004CE9AF /* ThreadsClone-iOSUITests.xctest */,
 			);
@@ -114,7 +114,7 @@
 			packageProductDependencies = (
 			);
 			productName = "ThreadsClone-iOS";
-			productReference = 78AD0A6F2D4EED86004CE9AF /* ThreadsClone-iOS.app */;
+			productReference = 78AD0A6F2D4EED86004CE9AF /* Threads.app */;
 			productType = "com.apple.product-type.application";
 		};
 		78AD0A7E2D4EED8A004CE9AF /* ThreadsClone-iOSTests */ = {
@@ -410,7 +410,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rezamadizadeh.ThreadsClone-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Threads;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -439,7 +439,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rezamadizadeh.ThreadsClone-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Threads;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
