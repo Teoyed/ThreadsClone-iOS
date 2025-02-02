@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		78AD0A802D4EED8A004CE9AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78AD0A672D4EED86004CE9AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78AD0A6E2D4EED86004CE9AF;
+			remoteInfo = "ThreadsClone-iOS";
+		};
+		78AD0A8A2D4EED8A004CE9AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78AD0A672D4EED86004CE9AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78AD0A6E2D4EED86004CE9AF;
+			remoteInfo = "ThreadsClone-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		78AD0A6F2D4EED86004CE9AF /* ThreadsClone-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ThreadsClone-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78AD0A7F2D4EED8A004CE9AF /* ThreadsClone-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ThreadsClone-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78AD0A892D4EED8A004CE9AF /* ThreadsClone-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ThreadsClone-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		78AD0A712D4EED86004CE9AF /* ThreadsClone-iOS */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ThreadsClone-iOS";
+			sourceTree = "<group>";
+		};
+		78AD0A822D4EED8A004CE9AF /* ThreadsClone-iOSTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ThreadsClone-iOSTests";
+			sourceTree = "<group>";
+		};
+		78AD0A8C2D4EED8A004CE9AF /* ThreadsClone-iOSUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ThreadsClone-iOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78AD0A6C2D4EED86004CE9AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78AD0A7C2D4EED8A004CE9AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78AD0A862D4EED8A004CE9AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78AD0A662D4EED86004CE9AF = {
+			isa = PBXGroup;
+			children = (
+				78AD0A712D4EED86004CE9AF /* ThreadsClone-iOS */,
+				78AD0A822D4EED8A004CE9AF /* ThreadsClone-iOSTests */,
+				78AD0A8C2D4EED8A004CE9AF /* ThreadsClone-iOSUITests */,
+				78AD0A702D4EED86004CE9AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		78AD0A702D4EED86004CE9AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78AD0A6F2D4EED86004CE9AF /* ThreadsClone-iOS.app */,
+				78AD0A7F2D4EED8A004CE9AF /* ThreadsClone-iOSTests.xctest */,
+				78AD0A892D4EED8A004CE9AF /* ThreadsClone-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78AD0A6E2D4EED86004CE9AF /* ThreadsClone-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78AD0A932D4EED8A004CE9AF /* Build configuration list for PBXNativeTarget "ThreadsClone-iOS" */;
+			buildPhases = (
+				78AD0A6B2D4EED86004CE9AF /* Sources */,
+				78AD0A6C2D4EED86004CE9AF /* Frameworks */,
+				78AD0A6D2D4EED86004CE9AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				78AD0A712D4EED86004CE9AF /* ThreadsClone-iOS */,
+			);
+			name = "ThreadsClone-iOS";
+			packageProductDependencies = (
+			);
+			productName = "ThreadsClone-iOS";
+			productReference = 78AD0A6F2D4EED86004CE9AF /* ThreadsClone-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		78AD0A7E2D4EED8A004CE9AF /* ThreadsClone-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78AD0A962D4EED8A004CE9AF /* Build configuration list for PBXNativeTarget "ThreadsClone-iOSTests" */;
+			buildPhases = (
+				78AD0A7B2D4EED8A004CE9AF /* Sources */,
+				78AD0A7C2D4EED8A004CE9AF /* Frameworks */,
+				78AD0A7D2D4EED8A004CE9AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78AD0A812D4EED8A004CE9AF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				78AD0A822D4EED8A004CE9AF /* ThreadsClone-iOSTests */,
+			);
+			name = "ThreadsClone-iOSTests";
+			packageProductDependencies = (
+			);
+			productName = "ThreadsClone-iOSTests";
+			productReference = 78AD0A7F2D4EED8A004CE9AF /* ThreadsClone-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		78AD0A882D4EED8A004CE9AF /* ThreadsClone-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78AD0A992D4EED8A004CE9AF /* Build configuration list for PBXNativeTarget "ThreadsClone-iOSUITests" */;
+			buildPhases = (
+				78AD0A852D4EED8A004CE9AF /* Sources */,
+				78AD0A862D4EED8A004CE9AF /* Frameworks */,
+				78AD0A872D4EED8A004CE9AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78AD0A8B2D4EED8A004CE9AF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				78AD0A8C2D4EED8A004CE9AF /* ThreadsClone-iOSUITests */,
+			);
+			name = "ThreadsClone-iOSUITests";
+			packageProductDependencies = (
+			);
+			productName = "ThreadsClone-iOSUITests";
+			productReference = 78AD0A892D4EED8A004CE9AF /* ThreadsClone-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78AD0A672D4EED86004CE9AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					78AD0A6E2D4EED86004CE9AF = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					78AD0A7E2D4EED8A004CE9AF = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 78AD0A6E2D4EED86004CE9AF;
+					};
+					78AD0A882D4EED8A004CE9AF = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 78AD0A6E2D4EED86004CE9AF;
+					};
+				};
+			};
+			buildConfigurationList = 78AD0A6A2D4EED86004CE9AF /* Build configuration list for PBXProject "ThreadsClone-iOS" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78AD0A662D4EED86004CE9AF;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 78AD0A702D4EED86004CE9AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78AD0A6E2D4EED86004CE9AF /* ThreadsClone-iOS */,
+				78AD0A7E2D4EED8A004CE9AF /* ThreadsClone-iOSTests */,
+				78AD0A882D4EED8A004CE9AF /* ThreadsClone-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78AD0A6D2D4EED86004CE9AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78AD0A7D2D4EED8A004CE9AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78AD0A872D4EED8A004CE9AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78AD0A6B2D4EED86004CE9AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78AD0A7B2D4EED8A004CE9AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78AD0A852D4EED8A004CE9AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78AD0A812D4EED8A004CE9AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78AD0A6E2D4EED86004CE9AF /* ThreadsClone-iOS */;
+			targetProxy = 78AD0A802D4EED8A004CE9AF /* PBXContainerItemProxy */;
+		};
+		78AD0A8B2D4EED8A004CE9AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78AD0A6E2D4EED86004CE9AF /* ThreadsClone-iOS */;
+			targetProxy = 78AD0A8A2D4EED8A004CE9AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		78AD0A912D4EED8A004CE9AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		78AD0A922D4EED8A004CE9AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78AD0A942D4EED8A004CE9AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ThreadsClone-iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = WBAY89X4DW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rezamadizadeh.ThreadsClone-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78AD0A952D4EED8A004CE9AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ThreadsClone-iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = WBAY89X4DW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rezamadizadeh.ThreadsClone-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		78AD0A972D4EED8A004CE9AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WBAY89X4DW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rezamadizadeh.ThreadsClone-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThreadsClone-iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ThreadsClone-iOS";
+			};
+			name = Debug;
+		};
+		78AD0A982D4EED8A004CE9AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WBAY89X4DW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rezamadizadeh.ThreadsClone-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThreadsClone-iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ThreadsClone-iOS";
+			};
+			name = Release;
+		};
+		78AD0A9A2D4EED8A004CE9AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WBAY89X4DW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rezamadizadeh.ThreadsClone-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ThreadsClone-iOS";
+			};
+			name = Debug;
+		};
+		78AD0A9B2D4EED8A004CE9AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WBAY89X4DW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rezamadizadeh.ThreadsClone-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ThreadsClone-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78AD0A6A2D4EED86004CE9AF /* Build configuration list for PBXProject "ThreadsClone-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78AD0A912D4EED8A004CE9AF /* Debug */,
+				78AD0A922D4EED8A004CE9AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78AD0A932D4EED8A004CE9AF /* Build configuration list for PBXNativeTarget "ThreadsClone-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78AD0A942D4EED8A004CE9AF /* Debug */,
+				78AD0A952D4EED8A004CE9AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78AD0A962D4EED8A004CE9AF /* Build configuration list for PBXNativeTarget "ThreadsClone-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78AD0A972D4EED8A004CE9AF /* Debug */,
+				78AD0A982D4EED8A004CE9AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78AD0A992D4EED8A004CE9AF /* Build configuration list for PBXNativeTarget "ThreadsClone-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78AD0A9A2D4EED8A004CE9AF /* Debug */,
+				78AD0A9B2D4EED8A004CE9AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78AD0A672D4EED86004CE9AF /* Project object */;
+}
