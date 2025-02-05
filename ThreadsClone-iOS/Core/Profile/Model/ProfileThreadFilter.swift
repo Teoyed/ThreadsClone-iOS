@@ -1,0 +1,22 @@
+//
+//  ProfileThreadFilter.swift
+//  ThreadsClone-iOS
+//
+//  Created by Reza Ahmadizadeh on 11/17/1403 AP.
+//
+
+import Foundation
+ 
+enum ProfileThreadFilter: Int,  CaseIterable, Identifiable {
+    case threads
+    case replies
+    
+    var title: String {
+        switch self {
+        case.threads: return "Threads"
+        case.replies: return "Replies"
+        }
+    }
+    
+    var id: Int { return self.rawValue}
+}
